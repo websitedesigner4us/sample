@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>application form</title>
+	<link rel="stylesheet" type="text/css" href="apply.css">
+	<script src="apply.js">
+</script>
+</head>
+<body>
+<section>
+	<h1>Application form</h1>
+</section>
+<section>
+	<form>
+	<fieldset>
+		<legend>Student Information</legend>
+		<label for ="Student name">Full Name:</label>
+			<input type = "text" name = "studentName" id = "studentName" required><br/></br>
+		<label for = "address">Permanent Address:</label>
+			<input type = "text" name = "address" id = "Permanent Address" required></br></br>
+		<label for = "digit">Contact number:</label>
+		   <input type="digit" name="Mobilenumber" id="Mobilenumber" pattern="[0-9]{10}" required></br></br>
+		<label for= "cityname">City: </label>
+		   <input type="text" name="city" id="city name" required></br></br>
+		<label for="Statename">State: </label>
+		   <input type="text" name="State" id="state name" required></br></br>
+		   <label for = "pincode">Pincode:</label>
+			<input type = "text" name = "shipZip" id = "pincode" pattern = "[0-9]{5}" required><br/>
+	</fieldset>
+</section>
+<section>
+	<fieldset>
+		<legend>Educational Qualification</legend>
+		<label for="10thmarks">SSC Percentage: </label>
+		     <input type="digit" name="10thmarks" id="10thmarks" required></br></br>
+		<label for="12thmarks">HSC Percentage: </label>
+		     <input type="digit" name="12thmarks" id="12thmarks" required></br></br>
+		 </fieldset>
+		 <input type = 'submit' value = "Confirm!">
+
+</section>
+</form>
+</body>
+</html>
